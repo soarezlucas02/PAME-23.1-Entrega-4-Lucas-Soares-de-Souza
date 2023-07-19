@@ -1,13 +1,15 @@
 import { ProdutoDiv } from "./style";
 
 const Produto = (props) => {
-  return (
-    <ProdutoDiv>
-      <img alt="imagem" src="./." />
-      <p>{props.nome}</p>
-      <p>{props.quantidade}</p>
-    </ProdutoDiv>
-  );
-};
+    
+    return(
+        <ProdutoDiv>
+            <img alt='imagem' src={props.foto}/>
+            <p>Nome : {props.nome}</p>
+            <p>Quantidade: {props.quantidade}</p>
+        </ProdutoDiv>
+    )
+
+}
 
 export default Produto;

@@ -5,8 +5,8 @@ const Header = () => {
         <HeaderDiv>
             <h1>Delicias Caseiras</h1>
             <input placeholder="Pesquise aqui um sabor"/>
-            <a href="">Produtos</a>
-            <a href="">Encomendas</a>
+            <a href="/produtos">Produtos</a>
+            <a href="/encomendas">Encomendas</a>
             <button>Sair</button>
         </HeaderDiv>
     )
