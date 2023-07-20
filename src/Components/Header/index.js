@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Botao } from "../Botao/style";
 import { Input } from "../Input/style";
 import { HeaderDiv } from "./styles";
@@ -7,9 +8,9 @@ const Header = () => {
         <HeaderDiv>
             <h1>Delicias Caseiras</h1>
             <Input placeholder="Pesquise aqui um sabor"/>
-            <Botao href="/estoque">Estoque</Botao>
-            <Botao href="/encomendas">Encomendas</Botao>
-            <Botao>Sair</Botao>
+            <Link to="/estoque">Estoque</Link>
+            <Link to="/encomendas">Encomendas</Link>
+            <Link to='/'>Sair</Link>
         </HeaderDiv>
     )
 }

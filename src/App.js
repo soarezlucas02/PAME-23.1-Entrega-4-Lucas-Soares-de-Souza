@@ -14,6 +14,7 @@ function App() {
           <Route path='/' element = {<Login/>}/>
           <Route path='/encomendas' element = {<Encomendas/>}/>
           <Route path='/estoque' element = {<Estoque/>}/>
+          <Route path='*' element = {'Página não Encontrada'}/>
         </Routes>
       </BrowserRouter>
 
