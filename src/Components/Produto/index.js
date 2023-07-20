@@ -1,3 +1,4 @@
+import { Botao } from "../Botao/style";
 import { ProdutoDiv } from "./style";
 
 const Produto = (props) => {
@@ -7,8 +8,8 @@ const Produto = (props) => {
             <img alt='imagem' src={props.foto}/>
             <p>Nome : {props.nome}</p>
             <p>Quantidade: {props.quantidade}</p>
-            <button>+</button>
-            <button>-</button>
+            <Botao>+</Botao>
+            <Botao>-</Botao>
         </ProdutoDiv>
     )
 

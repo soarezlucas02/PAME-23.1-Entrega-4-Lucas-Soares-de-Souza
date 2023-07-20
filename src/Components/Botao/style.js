@@ -6,6 +6,6 @@ padding: 8px;
 color: black;
 background-color: orange;
 border-radius: 10px;
-margin: 20px;
+margin: 5px;
 
 `

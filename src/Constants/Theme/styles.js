@@ -12,12 +12,11 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const Logo = styled.img`
-    
+
 
 `
 
 export const colors = {
-
 
 }
 
