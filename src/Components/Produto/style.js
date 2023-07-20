@@ -8,6 +8,7 @@ export const ProdutoDiv = styled.div`
     margin: 10px 10px;
 
     & img {
+        margin: 10px;
         width: 300px;
         max-width: 100%;
     }

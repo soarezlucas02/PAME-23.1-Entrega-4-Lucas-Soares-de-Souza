@@ -7,6 +7,8 @@ const Produto = (props) => {
             <img alt='imagem' src={props.foto}/>
             <p>Nome : {props.nome}</p>
             <p>Quantidade: {props.quantidade}</p>
+            <button>+</button>
+            <button>-</button>
         </ProdutoDiv>
     )
 
