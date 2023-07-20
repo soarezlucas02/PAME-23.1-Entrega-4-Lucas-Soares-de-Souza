@@ -7,7 +7,7 @@ const Header = () => {
         <HeaderDiv>
             <h1>Delicias Caseiras</h1>
             <Input placeholder="Pesquise aqui um sabor"/>
-            <Botao href="/produtos">Produtos</Botao>
+            <Botao href="/estoque">Estoque</Botao>
             <Botao href="/encomendas">Encomendas</Botao>
             <Botao>Sair</Botao>
         </HeaderDiv>
