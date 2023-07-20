@@ -1,3 +1,4 @@
+import { styled } from "styled-components"
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
@@ -9,6 +10,11 @@ export const GlobalStyle = createGlobalStyle`
         background-color: orange;
     }
 `;
+
+export const Logo = styled.img`
+    
+
+`
 
 export const colors = {
 
