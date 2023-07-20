@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
 import { Botao } from "../../Components/Botao/style";
 import { Input } from "../../Components/Input/style";
 import { LoginDiv, LoginPageDiv } from "./style";
+import { StyledLink } from "../../StyledLink/style";
 
 const Login = () => {
     return(
@@ -14,7 +16,7 @@ const Login = () => {
                 <label for="senha" class="texto-usuario texto-senha">Senha</label>
                 <Input type="password" id="senha" required placeholder="Senha "/>
 
-                <Botao>Entrar</Botao>
+                <StyledLink to='/estoque'>Entrar</StyledLink>
         </LoginDiv>
     </LoginPageDiv>
     )
