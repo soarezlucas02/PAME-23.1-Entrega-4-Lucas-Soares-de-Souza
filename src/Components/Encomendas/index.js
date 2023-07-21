@@ -1,5 +1,5 @@
 import { EncomendasDiv } from "./style";
-import Encomenda from '../Produto/index';
+import Encomenda from '../Encomenda/index';
 import { encomendas } from '../Objetos/index';
 
 const Encomendas2 = () => {

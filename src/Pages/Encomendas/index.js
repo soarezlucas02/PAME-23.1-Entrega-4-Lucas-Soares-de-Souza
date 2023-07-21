@@ -1,12 +1,13 @@
+import Encomendas2 from "../../Components/Encomendas"
 import Header from "../../Components/Header"
 
 const Encomendas = () => {
     return(
         <div>
             <Header/>
-            <p>Encomendas...</p>
+            <Encomendas2/>
         </div>
     )
 }
 
-export default Encomendas
+export default Encomendas;
