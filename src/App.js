@@ -1,14 +1,16 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.css';
+import './AppStyle.js';
 import { GlobalStyle } from './Constants/Theme/styles'
 import Encomendas from './Pages/Encomendas';
 import Estoque from './Pages/Estoque';
 import Login from './Pages/Login';
 import PaginaNaoEncontrada from './Components/PaginaNaoEncontrada';
+import { AppStyle } from './AppStyle.js';
+
 
 function App() {
   return (
-    <div>
+    <AppStyle>
       <GlobalStyle/>
       <BrowserRouter>
         <Routes>
@@ -19,7 +21,7 @@ function App() {
         </Routes>
       </BrowserRouter>
 
-    </div>
+    </AppStyle>
   );
 }
 

@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-export const ProdutoDiv = styled.div`
+export const EncomendaDiv = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,6 +11,10 @@ export const ProdutoDiv = styled.div`
         margin: 10px;
         width: 300px;
         max-width: 100%;
+    }
+
+    & .apagar{
+        width: 10px;
     }
 
 `

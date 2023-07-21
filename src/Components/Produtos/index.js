@@ -5,6 +5,7 @@ import { objetos } from '../Objetos/index';
 const Produtos = () => {
     
     return(
+        
         <ProdutosDiv>
             {objetos.map((produto, index) => (
                 <li key={index}>
@@ -17,6 +18,7 @@ const Produtos = () => {
 
             ))}
         </ProdutosDiv>
+        
     )
 
 }
